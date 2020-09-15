@@ -1,0 +1,23 @@
+/** @mainpage General
+ *
+ * @authors     Sensapex Oy
+ * @copyright   Copyright (c) 2012-2015 Sensapex. All rights reserved
+ *
+ * @section intro Introduction
+ * This package provides Sensapex µManipulator SDK documentation for use by C and C++ developers.
+ *
+ * @section download Download
+ * The latest version of Sensapex µManipulator SDK can be downloaded from here:
+ * <br>
+ * https://github.com/sensapex/smx-sdk
+ * @section c-api   C-language
+ * The developers who want to use C-programming language to control their manipulators can find the list of available functions from umanipulatorctl.h -file.
+ * @section cpp-api   C++
+ * The developers who want to use C++ -programming language to control their manipulators should study UManipulatorCtl -class.
+ * @section notes SDK release history
+ * <ul>
+ *      <li>Version 0.984, September 15, 2015</li>
+ *      <li>Version 0.982, April 24, 2015</li>
+ *      <li>Version 0.973, November 28, 2014</li>
+ * </ul>
+ */

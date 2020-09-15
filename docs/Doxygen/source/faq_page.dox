@@ -1,0 +1,44 @@
+/** @page FAQ
+ *
+ * @section coordinates Why SDK API coordinates are not equal with Control Unit?
+ * SDK uses a different axis naming than a manipulator. Please use the mapping table below to convert manipulator axis to SDK axis.
+ * <br>
+ * <table>
+ *	 <tr>
+ *     <th style="width:50%">SDK</th>
+ *     <th style="width:50%">Manipulator</th>
+ *   </tr>
+ *	 <tr align="center">
+ *     <td>X</td>
+ *     <td>Y</td>
+ *   </tr>
+ *	 <tr align="center">
+ *     <td>Y</td>
+ *     <td>Z</td>
+ *   </tr>
+ *	 <tr align="center">
+ *     <td>Z</td>
+ *     <td>X</td>
+ *   </tr>
+ * </table>
+ * <br>
+ * <hr>
+ *
+ * @section multi_manipulator_control I would like to control multiple manipulators from my desktop application. How this can be done?
+ * There is a number of extended SDK functions having a default parameter 'DeviceID'.
+ * You can use this parameter to assign commands to a certain device. 
+ * Please check the API documentation for details.
+ * <br>
+ * <br>
+ * <hr>
+ *
+ * @section select_device The Control Unit shows that my manipulator ID is 1. Why I am not able to select it by using DeviceID 1?
+ * C-API uses characters for device IDs. In example a device with DeviceID 1 can selected by using char '1' (0x31).
+ * <br>
+ * <br>
+ * <b>Please note</b> that C++ -API uses integers for device IDs - which means that in example a manipulator with DeviceID 1
+ * can be selected by using integer 1 (0x1).
+ * <br>
+ * <br>
+ * <hr>
+ */
